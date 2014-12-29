@@ -13,9 +13,11 @@ except ImportError:
 
 
 setup(
+    setup_requires=['setuptools-markdown'],
     name="wheelhouse-uploader",
     version="0.7.0",
     description="Upload wheels to any cloud storage supported by Libcloud",
+    long_description_markdown_filename='README.md',
     maintainer="Olivier Grisel",
     maintainer_email="olivier.grisel@ensta.org",
     license="MIT",
